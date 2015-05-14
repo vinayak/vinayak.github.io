@@ -1,8 +1,25 @@
-<!DOCTYPE html> 
 <html>
 <head>	
+	<script src="js/jquery.js"></script>
+	<title>Vinayak</title>
 </head>
 <body>
-	<h1>Git is really cool</h1>
+	<h1>Coming soon.....</h1>
+	<img src="/public/images/talks.png"/><br>
+	<a href="javascript:void(0)" onclick="reset()">Reset</a><br><br><br>
+	<a href="javascript:void(0)" onclick="increment()">Click</a>
 </body>
+<script>
+var count=0;
+function increment(){
+	if(count>108){
+		reset()
+	}
+	console.log(count)
+	count++
+}
+function reset(){
+	count=0
+}
+</script>
 </html>
